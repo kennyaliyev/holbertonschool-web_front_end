@@ -506,7 +506,8 @@ ul.row {
   list-style: none;
 }
 
-ul.row::after {
+/* FIX: Use .row instead of ul.row */
+.row::after {
   content: "";
   display: table;
   clear: both;
